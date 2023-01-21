@@ -56,7 +56,7 @@ export const Project = (): JSX.Element => {
 
             <ProjectStack>
               <Text type="body2" color="grey2">
-                Primary Language:
+                Linguagem principal:
               </Text>
               {repository.language ? (
                 <ProjectStackTech>
@@ -67,7 +67,7 @@ export const Project = (): JSX.Element => {
               ) : (
                 <ProjectStackTech>
                   <Text color="grey2" type="body2">
-                    Primary language not identified
+                    Linguagem principal não identificada
                   </Text>
                 </ProjectStackTech>
               )}
@@ -78,14 +78,14 @@ export const Project = (): JSX.Element => {
             </Text>
             <ProjectLinks>
               <ProjectLink target="_blank" href={repository.html_url}>
-                <FaGithub /> Github Code
+                <FaGithub /> Repositório
               </ProjectLink>
               {repository.homepage && (
                 <ProjectLink
                   target="_blank"
                   href={`https://${repository.homepage}`}
                 >
-                  <FaShare /> See demo
+                  <FaShare /> Página
                 </ProjectLink>
               )}
             </ProjectLinks>

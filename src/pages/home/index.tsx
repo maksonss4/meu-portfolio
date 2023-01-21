@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/meu-portfolio`;
 
   return (
     <main id="home">
@@ -44,29 +44,37 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">
+                Olá, meu nome é {userData.nameUser}. Seja bem-vindo ao meu
+                portfólio.
+              </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              Eu sou{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                Web Developer
               </Text>{" "}
-              creating and{" "}
+              e{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                apaixonado
               </Text>{" "}
-              projects
+              pelo mundo da
+              <Text as="span" type="heading1" color="brand1">
+                {" "}
+                programação
+              </Text>
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Conheça aqui neste ambiente, criado especialmente para você,
+              alguns dos meus projetos, tecnologias e ferramentas mais
+              utilizadas.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Veja meus projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Veja o código do meu portfólio
               </Button>
               <Button
                 color="grey5"
@@ -92,12 +100,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                My projects
+                Meus projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns dos{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  meus projetos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>

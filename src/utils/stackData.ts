@@ -1,40 +1,46 @@
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript } from "react-icons/si";
-import { FaGit, FaPython } from "react-icons/fa";
-import {
-  FaDocker,
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaNode,
-  FaReact,
-} from "react-icons/fa";
+import imgHtml5 from "../public/static/img/stack/html5.svg";
+import imgCss3 from "../public/static/img/stack/css3.svg";
+import imgJs from "../public/static/img/stack/js.svg";
+import imgPython from "../public/static/img/stack/python.svg";
+import imgTs from "../public/static/img/stack/ts.svg";
+import imgNodejs from "../public/static/img/stack/nodejs.svg";
+import imgReact from "../public/static/img/stack/react.svg";
+import imgPostgresql from "../public/static/img/stack/postgresql.svg";
+import imgGit from "../public/static/img/stack/git.svg";
+import imgDjango from "../public/static/img/stack/django.svg";
+import imgTypeORM from "../public/static/img/stack/typeorm.svg";
+import imgJest from "../public/static/img/stack/jest.svg";
+import imgStyledComponents from "../public/static/img/stack/styled-components.svg";
+import imgTrello from "../public/static/img/stack/trello.svg";
 
 export const stackData = [
   {
     title: "HTML",
-    img: FaHtml5,
+    img: imgHtml5,
   },
   {
     title: "CSS",
-    img: FaCss3Alt,
+    img: imgCss3,
   },
   {
-    title: "JS",
-    img: FaJs,
+    title: "JavaScript",
+    img: imgJs,
   },
-  { title: "TypeScript", img: SiTypescript },
+  { title: "TypeScript", img: imgTs },
+  { title: "Python", img: imgPython },
   {
     title: "Node JS",
-    img: FaNode,
+    img: imgNodejs,
   },
   {
     title: "React",
-    img: FaReact,
+    img: imgReact,
   },
-  { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
-  { title: "PostgreSQL", img: SiPostgresql },
-  { title: "Git", img: FaGit },
-  { title: "Python", img: FaPython },
+  { title: "PostgreSQL", img: imgPostgresql },
+  { title: "Git", img: imgGit },
+  { title: "Django", img: imgDjango },
+  { title: "Styled Components", img: imgStyledComponents },
+  { title: "Jest", img: imgJest },
+  { title: "TypeORM", img: imgTypeORM },
+  { title: "Trello", img: imgTrello },
 ];
