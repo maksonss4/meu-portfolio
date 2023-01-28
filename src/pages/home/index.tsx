@@ -45,23 +45,22 @@ export const Home = (): JSX.Element => {
                 height={"48px"}
               />
               <Text color="grey4">
-                Olá, meu nome é {userData.nameUser}. Seja bem-vindo ao meu
-                portfólio.
+                Olá, meu nome é {userData.nameUser}.
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              Eu sou{" "}
+              Seja{" "}
               <Text as="span" type="heading1" color="brand1">
-                Web Developer
+                bem-vindo
               </Text>{" "}
-              e{" "}
+              ao meu{" "}
               <Text as="span" type="heading1" color="brand1">
-                apaixonado
+                portfólio!
               </Text>{" "}
-              pelo mundo da
+              Navegue pela página e conheça um pouco sobre mim e alguns dos meus
               <Text as="span" type="heading1" color="brand1">
                 {" "}
-                programação
+                projetos.
               </Text>
             </Text>
             <Text type="body1" color="grey2">
